@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* { /* RESET */
+    vertical-align: baseline;
+    font-weight: 400;
+    font-family: Roboto, sans-serif;
+    font-style: inherit;
+    font-size: 100%;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    color: #000;
+}
+
+body {
+  background-color: rgb(215, 215, 215);
+  padding: 0 300px;
+}
+
+body.dark {
+  background-color: rgb(35, 35, 35);
+}
+
+#body-spacer {
+  width: 100%;
+}
+
+#title {
+  margin-top: 50px;
+  font-size: 300%;
+}
+
+#title-spacer {
+  margin-top: 10px;
+  width: 80px;
+  border-bottom: #000 solid 3px;
+}
+
+#title-spacer.dark {
+  border-bottom: #fff solid 3px;
+}
+
+ul {
+  list-style-type: none;
+  width: 100%;
+}
+
+li {
+  display: flex;
+  padding: 15px;
+  margin: 10px 0px;
+  width: 100%;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: -3px 3px 3px rgb(65, 65, 65);
+}
+
+li.dark {
+  background-color: rgb(45, 45, 45);
+  box-shadow: -3px 3px 3px rgb(100, 100, 100);
+}
+
+p {
+  display: inline-block;
+  width: 33%;
+}
+
+#dark-toggle {
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 150%;
+  border-radius: 5px;
+  border: rgb(65, 65, 65) solid 1px;
+}
+
+#dark-toggle.dark {
+  background-color: rgb(35, 35, 35);
+  border: #fff solid 1px;
+}
+
+#dark-toggle:hover {
+  background-color: rgb(200, 200, 200);
+}
+
+#dark-toggle.dark:hover {
+  background-color: rgb(45, 45, 45);
+}
+
+#dark-toggle:active {
+  background-color: rgb(180, 180, 180);
+}
+
+#dark-toggle.dark:active {
+  background-color: rgb(55, 55, 55);
+}
+
+.text.dark {
+  color: white;
+}
